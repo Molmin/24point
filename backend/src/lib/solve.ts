@@ -120,5 +120,7 @@ export function toSolutionString(
     )
 }
 
-// const numbers = [7, 6, 8, 10]
-// console.log(solveAll(numbers, 24).map(sol => toSolutionString(numbers, sol)))
+// console.log(process.argv[2])
+// const numbers = [+process.argv[2], +process.argv[3], +process.argv[4], +process.argv[5]]
+// console.log(solveAll(numbers).map(sol => toSolutionString(numbers, sol)))
+// console.log(toSolutionString(numbers, solve(numbers).operation))

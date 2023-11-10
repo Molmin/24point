@@ -17,6 +17,8 @@ export function generate(
     return problem
 }
 
-const problem = generate(11)
-console.log(problem)
+// for (let i = 0; i < 100; i++)
+//     console.log(`${i + 1}. ` + generate(42).join(', '))
+// const problem = generate(11)
+// console.log(problem)
 // console.log(solveAll(problem,11).map(sol => toSolutionString(problem, sol)))

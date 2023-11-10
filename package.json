@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run build -w=@24point/frontend && node scripts/build.js && npm run start -w=@24point/backend",
     "solve": "npm run solve -w=@24point/backend",
-    "gen": "npm run gen -w=@24point/backend"
+    "gen": "npm run gen -w=@24point/backend",
+    "dev": "npm run dev -w=@24point/frontend"
   },
   "author": "",
   "license": "AGPL-3.0-or-later",
@@ -17,5 +18,8 @@
   ],
   "dependencies": {
     "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0"
   }
 }
