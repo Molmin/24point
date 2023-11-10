@@ -1,0 +1,21 @@
+{
+  "name": "24point-workspace",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build -w=@24point/frontend && node scripts/build.js && npm run start -w=@24point/backend",
+    "solve": "npm run solve -w=@24point/backend",
+    "gen": "npm run gen -w=@24point/backend"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "workspaces": [
+    "backend",
+    "frontend",
+    "utils"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
